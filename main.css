@@ -1,0 +1,40 @@
+
+
+
+section {
+    display:grid;
+    grid-column: 2;
+
+}
+header h1{
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    background-image: -webkit-linear-gradient(#F27DFD, #4FC7D7);
+    color:whitesmoke;
+ 
+    
+}
+
+.homeMenu{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+}
+
+section {
+    background-color: #4FC7D7;
+}
+
+.homeMenu li{
+    background-color:#F27DFD ;
+    list-style-type: none;
+    margin:0 3px ;
+    padding:5px 0;
+    text-align: center;
+        
+        
+    
+}
+a:link{
+    text-decoration: none;
+}
