@@ -6,13 +6,33 @@
         <title>Victor Gordian</title>
     </head>
     <body>
-        <a href="index.html">Home</a>
-        <header><h1>Contact Form for website issues</h1></header>
-        <form>
-            <label>On what page</label>
+        
+        <header><h1>Contact</h1></header>
+        <nav class='nav'><ul>
+            <li class="linemenu"><a href="index.html">Home</a></li>  
+            <div class="dropdown">
+            
+            <li class="linemenu"><a href="#">Discover LA</a></li>
+            <div class="dropdown-content">
+                <li><a href="hike.html">Hikes</a></li>
+                <li><a href="museums.html">Museums</a></li>
+                <li><a href="beaches.html">Beaches</a></li>
+            </div>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>  
+        </nav>
+        <form class="form">
+            <label>Subject</label>
             <input type="text" id="issuepage" name="issuepage" placeholder="Enter the link or name of the page"> <br>
-            <input type="text" id="fname" name="fname" placeholder="Enter your first name"> <br>
-            <input type="text" id="lname" name="lname" placeholder="Enter your last name"> <br>
+            <div class='name'>
+                <label>First and Last Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name"> <br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name"> <br>
+            </div>
+            
+            <label>Email</label>
             <input type="text" id="email" name="email" placeholder="Enter your email"> <br>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
             <input type="submit" value="Submit">

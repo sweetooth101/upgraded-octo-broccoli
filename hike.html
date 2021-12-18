@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css"/>
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <title>Victor Gordian</title>
+</head>    
+<body>
+    <div class="content">
+        <header>Discover LA: Hikes</header>
+        <nav class='nav'><ul>
+            <li class="linemenu"><a href="index.html">Home</a></li>  
+            <div class="dropdown">
+            
+            <li class="linemenu"><a href="#">Discover LA</a></li>
+            <div class="dropdown-content">
+                <li><a href="hike.html">Hikes</a></li>
+                <li><a href="museums.html">Museums</a></li>
+                <li><a href="beaches.html">Beaches</a></li>
+            </div>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>  
+        </nav>
+        <section id='hike-cards'>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100" id="card">
+                    <img alt="mount hollywood" class="card-img-top" src="mount_hollywood.jpg" >
+                    
+                        <div class="card-body">
+                            <h5 class="card-title">Mount Hollywood</h5>
+                            <p class="card-text"> The Griffith Observatory is one of L.A.’s greatest cultural attractions, offering spectacular views from the Pacific Ocean to Downtown L.A. from its perch on Mt. Hollywood in Griffith Park.</p>
+                        </div>  
+                    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" id="card">
+                    <img alt="sandstone" class="card-img-top" src="sandstone.jpg" >
+                    
+                        <div class="card-body">
+                            <h5 class="card-title">Sandstone Peak</h5>
+                            <p class="card-text">The Mishe Mokwa Trail to Sandstone Peak might just be my favorite hike in all of Southern California. This trail will take you to the highest point in the Santa Monica Mountains, past jagged peaks, riparian canyons, and popular rock climbing routes.  With killer views of the Pacific Ocean and the Santa Monica Bay, this is an absolute must-hike.</p>
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" id="card">
+                    <img alt="temscal" class="card-img-top" src="temescal.jpg" >
+                    
+                        <div class="card-body">
+                            <h5 class="card-title">Temescal Canyon</h5>
+                            <p class="card-text">Temescal Canyon‘s loop trail offers a steep, shaded canyon or a more gradual sunny ascent. It also features a seasonal waterfall, strange rock formations, and stunning coastal views – all right at the Westside’s doorstep.</p>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class='newsletter'>
+            <h2>DISCOVER LA NEWSLETTER</h2>
+            <form>
+                <input type="text" id="email" name="email" placeholder="Enter your email">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Who am I?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    My home is 9 miles south east of LA. Since covid I have been out and exploring LA its surrounding area. Born and raise in LA.
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Are the locations dangerous?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    No
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How did I come up with these places?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    I like to explore and discover new areas, most of the areas are free unless there is parking fees. 
+                    </div>
+                </div>
+                </div>
+            </div>       
+            
+        </section>
+    </div>
+</body>
+</html>
